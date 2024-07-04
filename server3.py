@@ -232,7 +232,7 @@ def run(routes, host='0.0.0.0', port=8000):
     thread = threading.Thread(target=server.serve_forever)
     thread.daemon = True
     thread.start()
-    print('HTTP server started on port 8080')
+    print('HTTP server started on port 8000')
     while True:
         from time import sleep
         sleep(1)
